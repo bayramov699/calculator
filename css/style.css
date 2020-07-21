@@ -1,0 +1,93 @@
+.container{
+    
+    max-width: 30%;
+}
+
+.body{
+    background-color: #57606f;
+    min-height: 5rem;
+    border-style: inset;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-top: 3rem;
+}
+
+.row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.screen{
+    background-color: #ecf0f1;
+    min-height: 5rem;
+    border: 1px black;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10%;
+    margin-top: 1.5rem;
+    padding-right: 0.8rem;
+    font-size: xxx-large;
+    margin: 2rem;
+}
+
+#numbers{
+   background-color: #34495e;
+   color: #eccc68;
+   font-size: 16px;
+   border: 1px solid;
+   height: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10%;
+   cursor: pointer; 
+   font-weight: bold;
+   font-size: x-large;
+}
+
+#clear{
+    background-color: #fab1a0;
+    color: #7f8c8d;
+    font-size: 16px;
+    border: 1px solid;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer; 
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#dblbrackets, #percent, #divide, #multiply, #minus, #plus, #equal, #comma, #change{
+    background-color: #95a5a6;
+    color: #7f8c8d;
+    font-size: 16px;
+    border: 1px solid;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    cursor: pointer; 
+    font-weight: bold;
+    font-size: x-large;
+}
+.footer{
+    background-color: #2d3436;
+    color: #7f8c8d;
+    font-size: 16px;
+    border: 1px solid;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    cursor: pointer; 
+    font-weight: bold;
+    width: 100%;
+    font-size: x-large;
+}
